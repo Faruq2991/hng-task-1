@@ -81,6 +81,8 @@ def classify_number():
         "fun_fact": fun_fact
     }
 
+    #return jsonify(response), 200
+    # Ensure valid JSON
     return jsonify(response), 200
 
 # Run the app
