@@ -1,5 +1,4 @@
-# hng-task-1
-# Number Classification API
+# hng-task-1 Number Classification API
 
 A simple Flask API that classifies a given number based on its properties (prime, perfect, armstrong, even/odd) and fetches a fun fact about it.
 
@@ -36,7 +35,7 @@ The API runs on `http://127.0.0.1:5000` by default.
 #### **Request:**
 Send a **GET** request with a query parameter:
 ```bash
-http://127.0.0.1:5000/api/classify-number?number=28
+http://18.171.137.193:5000/api/classify-number?number=28
 ```
 
 #### **Response Example:**
@@ -59,13 +58,12 @@ http://127.0.0.1:5000/api/classify-number?number=28
   ```
 
 ## Deployment
-This API can be deployed on **AWS EC2** by:
+This API was deployed on **AWS EC2** by:
 1. Launching an EC2 instance.
 2. Installing Python and Flask.
 3. Running the API with `gunicorn`.
 4. (Optional) Using Nginx as a reverse proxy.
 
-For detailed deployment instructions, check the [Deployment Guide](deployment.md) (if available).
 
 ## License
 MIT License
