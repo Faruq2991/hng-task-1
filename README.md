@@ -12,7 +12,7 @@ A simple Flask API that classifies a given number based on its properties (prime
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo.git
+git clone git@github.com:Faruq2991/hng-task-1.git
 cd your-repo
 ```
 
