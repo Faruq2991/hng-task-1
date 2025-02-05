@@ -51,7 +51,7 @@ def classify_number():
     except (ValueError, TypeError):
         # Return the exact error response format
         return jsonify({
-            "number": number_input if number_input else "null",
+            "number": number_input if number_input else "alphabet",
             "error": True
         }), 400
 
