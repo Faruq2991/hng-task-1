@@ -20,7 +20,6 @@ cd your-repo
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
 ### 3. Run the API
@@ -35,7 +34,7 @@ The API runs on `http://127.0.0.1:5000` by default.
 #### **Request:**
 Send a **GET** request with a query parameter:
 ```bash
-http://18.171.137.193:5000/api/classify-number?number=28
+http://35.178.125.225:5000/api/classify-number?number=28
 ```
 
 #### **Response Example:**
